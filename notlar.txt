@@ -1,0 +1,5 @@
+express ile proje olusturmak cin vscode terminalde 
+express proje_adi yazman yeterli ancak dependecy leri yuklemiyor otomatik olarak.
+bu yüzden projenin içinde npm install yazmak gerekli terminalde
+
+*bin in altýndaki www dosyasý aslýnda bizim serverimýz
