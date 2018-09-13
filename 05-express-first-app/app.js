@@ -19,12 +19,12 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
+app.use('/', indexRouter); // path / olunca indexRouter handle etsin bu requesti
+app.use('/users', usersRouter); // path /users olunca usersRouter handle etsin bu requesti
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
-  next(createError(404));
+  next(createError(404));  // Bir sonraki adımın calistirilmasi icin next cagrildi  
 });
 
 // error handler

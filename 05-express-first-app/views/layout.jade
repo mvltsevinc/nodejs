@@ -4,4 +4,18 @@ html
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
+    ul
+      li  My Text
+      li. 
+          dsadasfasfasf
+          safasfasfasfasfasf
+    input(type='text').class-name#anyid
+    - var condition = true  
+    if condition
+      p it's true   
+
+    - var anyArray = [1,2,3]
+    each value in anyArray
+      p= value  
+
     block content
