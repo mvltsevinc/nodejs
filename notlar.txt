@@ -12,3 +12,7 @@ dosya uzantýsý olarak hbs i biz kendimiz isim verdik seçtik.
 
 layout.hbs de {{ title }} dinamik olarak degisken bastýrmak icin kullanýlýr
 {{{ body }}} 3 tane olan ise render et anlamýndadýr. body rezerve edilmiþ kelimedir. biz seçmedik yani
+
+validation ve session için package yukledik
+npm install --save express-validator
+npm install --save express-session
