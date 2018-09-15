@@ -16,3 +16,9 @@ layout.hbs de {{ title }} dinamik olarak degisken bastýrmak icin kullanýlýr
 validation ve session için package yukledik
 npm install --save express-validator
 npm install --save express-session
+
+mongodb için package yukledik
+
+monk kurulumu icin
+ilk olarak package.json içinde mongodb ninsurumunu ^1.4.1 yaptýk.Daha sonra bu deðiþikliði uygulamak npm install ladýk.
+Daha sonra monku kurduk. npm install --save monk
